@@ -9,7 +9,7 @@ namespace Archmage.Models.AbilityScores
       public DexterityModel(int abilityScore)
       {
         Value = abilityScore;
-        if (AbilityScoreModifierService.TryGetDexterityModifiers(abilityScore, 
+        if (AbilityScoreService.TryGetDexterityModifiers(abilityScore, 
           out var reactionAdjustment, out var missleAttackAdjustment, out var defensiveAdjustment))
         {
           ReactionAdjustment = reactionAdjustment;

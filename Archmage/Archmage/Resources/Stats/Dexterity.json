@@ -1,78 +1,130 @@
 ﻿{
   "AbilityScore": "Dexterity",
-  "1": {
-
-  },
-  "2": {
-
-  },
-  "3": {
-
-  },
-  "4": {
-
-  },
-  "5": {
-
-  },
-  "6": {
-
-  },
-  "7": {
-
-  },
-  "8": {
-
-  },
-  "9": {
-
-  },
-  "10": {
-
-  },
-  "11": {
-
-  },
-  "12": {
-
-  },
-  "13": {
-
-  },
-  "14": {
-
-  },
-  "15": {
-
-  },
-  "16": {
-
-  },
-  "17": {
-
-  },
-  "18": {
-
-  },
-  "19": {
-
-  },
-  "20": {
-
-  },
-  "21": {
-
-  },
-  "22": {
-
-  },
-  "23": {
-
-  },
-  "24": {
-
-  },
-  "25": {
-
-  }
+  "Modifiers": [
+    {
+      "ReactionAdjustment": -6,
+      "MissileAttackAdjustment": -6,
+      "DefensiveAdjustment": 5
+    },
+    {
+      "ReactionAdjustment": -4,
+      "MissileAttackAdjustment": -4,
+      "DefensiveAdjustment": 5
+    },
+    {
+      "ReactionAdjustment": -3,
+      "MissileAttackAdjustment": -3,
+      "DefensiveAdjustment": 4
+    },
+    {
+      "ReactionAdjustment": -2,
+      "MissileAttackAdjustment": -2,
+      "DefensiveAdjustment": 3
+    },
+    {
+      "ReactionAdjustment": -1,
+      "MissileAttackAdjustment": -1,
+      "DefensiveAdjustment": 2
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 1
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": -1
+    },
+    {
+      "ReactionAdjustment": 1,
+      "MissileAttackAdjustment": 1,
+      "DefensiveAdjustment": -2
+    },
+    {
+      "ReactionAdjustment": 2,
+      "MissileAttackAdjustment": 2,
+      "DefensiveAdjustment": -3
+    },
+    {
+      "ReactionAdjustment": 2,
+      "MissileAttackAdjustment": 2,
+      "DefensiveAdjustment": -3
+    },
+    {
+      "ReactionAdjustment": 2,
+      "MissileAttackAdjustment": 2,
+      "DefensiveAdjustment": -3
+    },
+    {
+      "ReactionAdjustment": 3,
+      "MissileAttackAdjustment": 3,
+      "DefensiveAdjustment": -4
+    },
+    {
+      "ReactionAdjustment": 4,
+      "MissileAttackAdjustment": 4,
+      "DefensiveAdjustment": -5
+    },
+    {
+      "ReactionAdjustment": 4,
+      "MissileAttackAdjustment": 4,
+      "DefensiveAdjustment": -5
+    },
+    {
+      "ReactionAdjustment": 4,
+      "MissileAttackAdjustment": 4,
+      "DefensiveAdjustment": -5
+    },
+    {
+      "ReactionAdjustment": 5,
+      "MissileAttackAdjustment": 5,
+      "DefensiveAdjustment": -6
+    },
+    {
+      "ReactionAdjustment": 5,
+      "MissileAttackAdjustment": 5,
+      "DefensiveAdjustment": -6
+    }
+  ]
 }

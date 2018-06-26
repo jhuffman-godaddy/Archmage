@@ -19,7 +19,7 @@ namespace Archmage.Models.AbilityScores
     {
       Value = abilityScore;
       Percentile = percentile;
-      if (AbilityScoreModifierService.TryGetStrengthModifiers(abilityScore, percentile,
+      if (AbilityScoreService.TryGetStrengthModifiers(abilityScore, percentile,
         out var toHitAdjustment, out var damageAdjustment, out var weightAllowance,
         out var maxPress, out var openDoors, out var openLockedBarredMagicDoors,
         out var bendBarsLiftGates))
