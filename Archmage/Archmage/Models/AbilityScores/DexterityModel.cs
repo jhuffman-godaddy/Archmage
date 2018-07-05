@@ -4,25 +4,28 @@ using Archmage.Services;
 
 namespace Archmage.Models.AbilityScores
 {
-    public class DexterityModel : AbilityScore
+  public class DexterityModel : AbilityScore
+  {
+    public int? ReactionAdjustment { get; }
+    public int? MissleAttackAdjustment { get; }
+    public int? DefensiveAdjustment { get; }
+    public int? Surprise { get; }
+
+    public DexterityModel(int abilityScore)
     {
-      public DexterityModel(int abilityScore)
+      Value = abilityScore;
+      if (AbilityScoreService.TryGetDexterityModifiers(abilityScore,
+        out var reactionAdjustment, out var missleAttackAdjustment, out var defensiveAdjustment, out var surprise))
       {
-        Value = abilityScore;
-        if (AbilityScoreService.TryGetDexterityModifiers(abilityScore, 
-          out var reactionAdjustment, out var missleAttackAdjustment, out var defensiveAdjustment))
-        {
-          ReactionAdjustment = reactionAdjustment;
-          MissleAttackAdjustment = missleAttackAdjustment;
-          DefensiveAdjustment = defensiveAdjustment;
-        }
-        else
-        {
-          Debug.WriteLine($"Failed to retrieve modifiers for Dexterity:{abilityScore}");
-        }
+        ReactionAdjustment = reactionAdjustment;
+        MissleAttackAdjustment = missleAttackAdjustment;
+        DefensiveAdjustment = defensiveAdjustment;
+        Surprise = surprise;
       }
-      public int? ReactionAdjustment { get; }
-      public int? MissleAttackAdjustment { get; }
-      public int? DefensiveAdjustment { get; }
+      else
+      {
+        Debug.WriteLine($"Failed to retrieve modifiers for Dexterity:{abilityScore}");
+      }
     }
+  }
 }

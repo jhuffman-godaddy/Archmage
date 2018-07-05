@@ -15,6 +15,7 @@ namespace Archmage.Models
         Total = Accumulate(Rolls) + TotalModifier;
         Description = ToString();
       }
+
       public int Die { get; }
       public int Sides { get; }
       public int[] Rolls { get; }

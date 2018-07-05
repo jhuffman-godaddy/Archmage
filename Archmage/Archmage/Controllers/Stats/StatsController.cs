@@ -9,7 +9,11 @@ namespace Archmage.Controllers.Stats
         [Route("stats")]
         public IList<object> GetStats()
         {
-          var stats = new List<object> {new DexterityController().GetDexterityTable()};
+          var stats = new List<object>
+          {
+            new DexterityController().GetDexterityTable(),
+            new StrengthController().GetStrengthTable()
+          };
 
 
           return stats;

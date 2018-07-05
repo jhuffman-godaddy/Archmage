@@ -1,9 +1,10 @@
-﻿namespace Archmage.Models.Modifiers
+﻿namespace Archmage.Models.AbilityScores.Modifiers
 {
   public enum Dexterity
   {
     ReactionAdjustment,
     MissileAttackAdjustment,
-    DefensiveAdjustment
+    DefensiveAdjustment,
+    Surprise
   }
 }

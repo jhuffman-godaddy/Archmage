@@ -1,130 +1,159 @@
 ﻿{
   "AbilityScore": "Dexterity",
+  "ReactionAdjustment": "Reaction Adjustment modifies the die roll to see if a character is surprised when he unexpectedly encounters NPCs. The more positive the modifier, the less likely the character is to be surprised.",
+  "MissileAttackAdjustment": "Missile Attack Adjustment is used to modify a character's die roll whenever he uses a missile weapon (a bow or a thrown weapon).",
+  "DefensiveAdjustment": "Defensive Adjustment applies to a character's saving throws against attacks that can be dodged, lightning bolts, boulders, as well as AC.",
+  "Surprise": "Surprise is when a group catches one another group totally off guard. This is determined by rolling 1d10 for each side. If the die roll is a the number or lower, that group or character or group is surprised.",
   "Modifiers": [
     {
-      "ReactionAdjustment": -6,
+      "ReactionAdjustment": 6,
       "MissileAttackAdjustment": -6,
-      "DefensiveAdjustment": 5
+      "DefensiveAdjustment": 5,
+      "Surprise": 9
     },
     {
-      "ReactionAdjustment": -4,
+      "ReactionAdjustment": 4,
       "MissileAttackAdjustment": -4,
-      "DefensiveAdjustment": 5
-    },
-    {
-      "ReactionAdjustment": -3,
-      "MissileAttackAdjustment": -3,
-      "DefensiveAdjustment": 4
-    },
-    {
-      "ReactionAdjustment": -2,
-      "MissileAttackAdjustment": -2,
-      "DefensiveAdjustment": 3
-    },
-    {
-      "ReactionAdjustment": -1,
-      "MissileAttackAdjustment": -1,
-      "DefensiveAdjustment": 2
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 1
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": 0
-    },
-    {
-      "ReactionAdjustment": 0,
-      "MissileAttackAdjustment": 0,
-      "DefensiveAdjustment": -1
-    },
-    {
-      "ReactionAdjustment": 1,
-      "MissileAttackAdjustment": 1,
-      "DefensiveAdjustment": -2
-    },
-    {
-      "ReactionAdjustment": 2,
-      "MissileAttackAdjustment": 2,
-      "DefensiveAdjustment": -3
-    },
-    {
-      "ReactionAdjustment": 2,
-      "MissileAttackAdjustment": 2,
-      "DefensiveAdjustment": -3
-    },
-    {
-      "ReactionAdjustment": 2,
-      "MissileAttackAdjustment": 2,
-      "DefensiveAdjustment": -3
+      "DefensiveAdjustment": 5,
+      "Surprise": 7
     },
     {
       "ReactionAdjustment": 3,
+      "MissileAttackAdjustment": -3,
+      "DefensiveAdjustment": 4,
+      "Surprise": 6
+    },
+    {
+      "ReactionAdjustment": 2,
+      "MissileAttackAdjustment": -2,
+      "DefensiveAdjustment": 3,
+      "Surprise": 5
+    },
+    {
+      "ReactionAdjustment": 1,
+      "MissileAttackAdjustment": -1,
+      "DefensiveAdjustment": 2,
+      "Surprise": 4
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 1,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": 0,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": 0,
+      "MissileAttackAdjustment": 0,
+      "DefensiveAdjustment": -1,
+      "Surprise": 3
+    },
+    {
+      "ReactionAdjustment": -1,
+      "MissileAttackAdjustment": 1,
+      "DefensiveAdjustment": -2,
+      "Surprise": 2
+    },
+    {
+      "ReactionAdjustment": -2,
+      "MissileAttackAdjustment": 2,
+      "DefensiveAdjustment": -3,
+      "Surprise": 1
+    },
+    {
+      "ReactionAdjustment": -2,
+      "MissileAttackAdjustment": 2,
+      "DefensiveAdjustment": -3,
+      "Surprise": 1
+    },
+    {
+      "ReactionAdjustment": -2,
+      "MissileAttackAdjustment": 2,
+      "DefensiveAdjustment": -3,
+      "Surprise": 1
+    },
+    {
+      "ReactionAdjustment": -3,
       "MissileAttackAdjustment": 3,
-      "DefensiveAdjustment": -4
+      "DefensiveAdjustment": -4,
+      "Surprise": 0
     },
     {
-      "ReactionAdjustment": 4,
+      "ReactionAdjustment": -4,
       "MissileAttackAdjustment": 4,
-      "DefensiveAdjustment": -5
+      "DefensiveAdjustment": -5,
+      "Surprise": -1
     },
     {
-      "ReactionAdjustment": 4,
+      "ReactionAdjustment": -4,
       "MissileAttackAdjustment": 4,
-      "DefensiveAdjustment": -5
+      "DefensiveAdjustment": -5,
+      "Surprise": -1
     },
     {
-      "ReactionAdjustment": 4,
+      "ReactionAdjustment": -4,
       "MissileAttackAdjustment": 4,
-      "DefensiveAdjustment": -5
+      "DefensiveAdjustment": -5,
+      "Surprise": -1
     },
     {
-      "ReactionAdjustment": 5,
+      "ReactionAdjustment": -5,
       "MissileAttackAdjustment": 5,
-      "DefensiveAdjustment": -6
+      "DefensiveAdjustment": -6,
+      "Surprise": -2
     },
     {
-      "ReactionAdjustment": 5,
+      "ReactionAdjustment": -5,
       "MissileAttackAdjustment": 5,
-      "DefensiveAdjustment": -6
+      "DefensiveAdjustment": -6,
+      "Surprise": -2
     }
   ]
 }

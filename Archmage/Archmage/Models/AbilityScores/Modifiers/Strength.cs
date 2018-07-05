@@ -7,7 +7,7 @@
     WeightAllowance,
     MaxPress,
     OpenDoors,
-    OpenLockedBarredMagicDoors,
+    OpenLockedBarredOrMagicDoors,
     BendBarsLiftGates
   }
 }
