@@ -1,11 +1,13 @@
 ﻿using System.Diagnostics;
 using Archmage.Models.Stats;
 using Archmage.Services;
+using Newtonsoft.Json;
 
 namespace Archmage.Models.AbilityScores
 {
   public class DexterityModel : AbilityScore
   {
+    [JsonProperty]
     public int? ReactionAdjustment { get; }
     public int? MissleAttackAdjustment { get; }
     public int? DefensiveAdjustment { get; }
