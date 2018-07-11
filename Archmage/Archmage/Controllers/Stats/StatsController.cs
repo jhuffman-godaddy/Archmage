@@ -7,8 +7,7 @@ namespace Archmage.Controllers.Stats
   public class StatsController : Controller
   {
 
-    [HttpGet]
-    [Route("stats")]
+    [HttpGet("stats")]
     public IList<object> GetStats()
     {
       var stats = new List<object>

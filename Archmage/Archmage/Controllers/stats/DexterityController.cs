@@ -11,14 +11,12 @@ namespace Archmage.Controllers.Stats
   {
 
     [HttpGet]
-    [Route("")]
     public JObject GetDexterityTable()
     {
       return JObject.Parse(Properties.Resources.Dexterity);
     }
 
-    [HttpGet]
-    [Route("{abilityScore}")]
+    [HttpGet("{abilityScore}")]
     public DexterityModel GetDexterityModifiers(int abilityScore)
     {
       return new DexterityModel(abilityScore);

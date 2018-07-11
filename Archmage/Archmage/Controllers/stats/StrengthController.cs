@@ -8,22 +8,19 @@ namespace Archmage.Controllers.Stats
   [Route("stats/str")]
   public class StrengthController : Controller
   {
-    [HttpGet]
-    [Route("")]
+    [HttpGet("")]
     public JObject GetStrengthTable()
     {
       return JObject.Parse(Properties.Resources.Strength);
     }
 
-    [HttpGet]
-    [Route("{abilityScore}")]
+    [HttpGet("{abilityScore}")]
     public StrengthModel GetStrengthModifiers(int abilityScore)
     {
       return GetStrengthModifiers(abilityScore, null);
     }
 
-    [HttpGet]
-    [Route("{abilityScore}/{percentile}")]
+    [HttpGet("{abilityScore}/{percentile}")]
     public StrengthModel GetStrengthModifiers(int abilityScore, int? percentile)
     {
       return new StrengthModel(abilityScore, percentile);
