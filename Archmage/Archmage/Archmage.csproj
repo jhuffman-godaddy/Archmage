@@ -4,15 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Resources\Stats\Dexterity.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Stats\Dexterity.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\Archmage.xml</DocumentationFile>
+  </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -33,6 +27,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="Resources\Stats\Dexterity.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Update="Resources\Stats\Charisma.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

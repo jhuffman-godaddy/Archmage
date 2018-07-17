@@ -7,6 +7,10 @@ namespace Archmage.Controllers.Stats
   public class StatsController : Controller
   {
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
     [HttpGet("stats")]
     public IList<object> GetStats()
     {
