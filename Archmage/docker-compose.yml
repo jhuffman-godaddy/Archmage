@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  archmage:
+    image: ${DOCKER_REGISTRY}archmage
+    build:
+      context: .
+      dockerfile: Archmage/Dockerfile
